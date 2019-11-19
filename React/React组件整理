@@ -1,0 +1,84 @@
+由于本次项目基于DBus
+ https://github.com/BriData/DBus
+项目为基础进行开发,该项目采用前后分离的方式,前端主要是基于React构建的项目,对于一个非专业前端来说 由于Dbus项目中并没有对前端这块有介绍，因此刚开始看这个前端代码确实有点一头雾水,经过这两周的边开发边学习发现该项目主要用到了如下React相关的依赖,每个组件都有它自己的一套写法,因此我们在用的时候有必要都大概了解一下这些组件的语法，如下是整理的项目中常用的组件:
+
+DBus 项目中用到的React相关组件：
+
+1.React Redux：
+
+Redux 是 JavaScript 状态容器，提供可预测化的状态管理
+
+https://www.redux.org.cn/docs/react-redux/
+
+2.reselect
+
+一个简单的redux的selector库
+
+可以计算数据来源，允许redux只保存最小的必须数据量
+快速高效，除非selector的参数发生变化，不然selector不会重新计算
+可组合，可以作为别的selector的输入
+
+https://github.com/reduxjs/reselect
+
+3.react-helmet
+
+管理对文档头的所有更改
+
+https://github.com/nfl/react-helmet
+
+4.reselect
+
+一个简单的redux的selector库
+
+可以计算数据来源，允许redux只保存最小的必须数据量
+快速高效，除非selector的参数发生变化，不然selector不会重新计算
+可组合，可以作为别的selector的输入
+
+
+https://github.com/reduxjs/reselect
+
+5.redux-saga
+
+文档地址：
+https://redux-saga-in-chinese.js.org/index.html
+
+项目地址:
+
+https://github.com/redux-saga/redux-saga
+
+6.antd(ant Design)
+
+antd 是基于 Ant Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。
+
+https://ant.design/docs/react/introduce-cn
+
+7.immutable
+
+文档：
+
+http://cn.iflow.js.org/docs/advanced/Immutable.html
+
+项目地址：
+
+https://github.com/immutable-js/immutable-js
+
+8.react-json-tree (json格式化插件)
+
+https://www.npmjs.com/package/react-json-tree
+
+9. react-router
+
+文档地址：
+
+http://react-guide.github.io/react-router-cn/
+
+https://github.com/ReactTraining/react-router
+
+
+     
+    
+    
+    
+    
+    
+    
